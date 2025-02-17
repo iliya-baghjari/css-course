@@ -66,9 +66,9 @@
 
             span{
                 display: inline-block;
-                margin-right: 1rem;
+                margin-right: 1.5rem;
             }
-        }
+       
         &:hover,
         &:active{
             background-position: right;
@@ -76,4 +76,4 @@
             transform: translateX(1rem);
         }
     }
-}
+} }
