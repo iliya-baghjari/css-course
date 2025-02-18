@@ -576,7 +576,8 @@ body {
   border-radius: 50%;
   top: 6rem;
   right: 6rem;
-  z-index: 1400; }
+  z-index: 1400;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .navigation__background {
   height: 6rem;
