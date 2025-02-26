@@ -6,13 +6,12 @@
     border-radius: 3px;
     box-shadow: 0 1.2rem 2rem rgba($color-black,.2);
     transition: all .2s;
+    @include respond(tab-port){
+        padding: 2rem;
+    }
 
     &:hover{
         transform: translateY(-1.5rem) scale(1.05);
-    }
-
-    &__text{
-
     }
 
     &__icon{
@@ -20,7 +19,12 @@
         margin-bottom: .5rem;
         display: inline-block;
     background-image:linear-gradient(to right, $color-primary-light, $color-primary-dark) ;
-    -webkit-background-clip: text;
+    background-clip: text;
+
     color: transparent;
+
+    @include respond(tab-port){
+        padding: 0;
+    }
     }
 }
