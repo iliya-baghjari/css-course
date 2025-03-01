@@ -886,16 +886,16 @@ body {
     .section-about {
       padding: 20rem 0; } }
 
-.section-features {
+.section-feature {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
-  .section-features > * {
+  .section-feature > * {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
-    .section-features {
+    .section-feature {
       padding: 10rem 0; } }
 
 .section-tours {
